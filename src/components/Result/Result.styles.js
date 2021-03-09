@@ -11,9 +11,11 @@ export const CircleWrapper = styled('div')`
 
 export const DataWrapper = styled('h2')`
   margin-top: -150px;
-  margin-left: 90px;
-  font-size: 36px;
+  text-align: center;
+  margin-left: 20px;
+  font-size: 30px;
   color: white;
+  margin-bottom: 30px;
   @media (max-width: 600px) {
     margin-top: -160px;
     margin-left: 120px;

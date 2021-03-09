@@ -37,7 +37,7 @@ export const TableComponent = (props) => (
     <TableWrapper>
       <Table hover stripped>
         <thead>
-          <tr>
+          <tr style={{ color: 'white' }} className={props.color}>
             <th>#</th>
             <th>Word</th>
             <th>Count</th>
