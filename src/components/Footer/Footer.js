@@ -9,7 +9,7 @@ const footerLinks = [
   { text: 'Support', link: '/support' },
 ];
 export const Footer = React.memo((props) => (
-  <FooterWrapper>
+  <FooterWrapper className="section">
     <Container>
       <Row className="row">
         <Col xs="6" md="3">
@@ -23,7 +23,7 @@ export const Footer = React.memo((props) => (
           xs="12"
           md="6"
           style={{ display: 'flex', flexDirection: 'column' }}
-          className="text-center text-md-left"
+          className="text-center text-md-left mt-3"
         >
           <h3>Sentiment Analyzer</h3>
           <p>

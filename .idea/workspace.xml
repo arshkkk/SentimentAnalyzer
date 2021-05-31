@@ -4,16 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f76310ed-bd1d-4e86-b9dd-b3bbd335f853" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/WordCloud/WordCloud.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/WordCloud/index.js" afterDir="false" />
+    <list default="true" id="f76310ed-bd1d-4e86-b9dd-b3bbd335f853" name="Default Changelist" comment="Added Word Cloud">
+      <change afterPath="$PROJECT_DIR$/src/components/Team/TeamMember/TeamMember.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Result/Result.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Result/Result.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Result/Result.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Result/Result.styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Result/Table.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Result/Table.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/arbaz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/chetan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/shubham.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/colors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardWidget/CardItem/CardItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardWidget/CardItem/CardItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardWidget/CardItem/CardItem.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardWidget/CardItem/CardItem.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardWidget/CardWidget.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardWidget/CardWidget.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardWidget/CardWidget.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardWidget/CardWidget.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeroSection/HeroSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroSection/HeroSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HowWeDoIt/HowWeDoIt.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HowWeDoIt/HowWeDoIt.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HowWeDoIt/HowWeDoIt.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HowWeDoIt/HowWeDoIt.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HowWeDoIt/Item/Item.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HowWeDoIt/Item/Item.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/NavbarComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/NavbarComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StepsComponent/FetchData/FetchData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StepsComponent/FetchData/FetchData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StepsComponent/StepsComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StepsComponent/StepsComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Team/Team.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Team/Team.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Team/Team.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Team/Team.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Team/TeamMember/TeamMember.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Team/TeamMember/TeamMember.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Team/TeamMember/TeamMember.styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StepsComponent/FetchData/ProgressBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WhyUs/WhyUs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WhyUs/WhyUs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WhyUs/WhyUs.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WhyUs/WhyUs.styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/constant_data/classification_algos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constant_data/classification_algos.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/constant_data/feature_extraction_algo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constant_data/feature_extraction_algo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Homepage/Homepage.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Homepage/Homepage.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Process/Process.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Process/Process.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +54,18 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/components/Result/Result.styles.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/CardWidget/CardWidget.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/Result/Result.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/Result/Table.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/pages/Process/Process.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/WordCloud/WordCloud.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/WordCloud/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/StepsComponent/StepsComponent.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/constant_data/classification_algos.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/constant_data/feature_extraction_algo.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1oPeKK3vz6oMj3JOQsmcHcnM9Ks" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -44,10 +78,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Fiverr/Mpkfresh/kiatami" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Fiverr/soleil/zom.heath-Defi_Website_ReactJS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\arshdeep kumar\Documents\final_year_project\node_modules\prettier" />
@@ -97,7 +133,13 @@
       <workItem from="1614882903967" duration="21000" />
       <workItem from="1615181154298" duration="601000" />
       <workItem from="1615194023848" duration="5000" />
-      <workItem from="1615260824544" duration="17090000" />
+      <workItem from="1615260824544" duration="20344000" />
+      <workItem from="1615286057281" duration="487000" />
+      <workItem from="1615304562438" duration="7000" />
+      <workItem from="1617907885183" duration="532000" />
+      <workItem from="1618749870603" duration="762000" />
+      <workItem from="1621923875707" duration="20000" />
+      <workItem from="1622432267879" duration="12058000" />
     </task>
     <task id="LOCAL-00001" summary="fixups">
       <created>1614579077878</created>
@@ -134,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615274493385</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added Word Cloud">
+      <created>1615278376381</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615278376381</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,7 +194,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -158,7 +219,8 @@
     <MESSAGE value="API Integration and Result Component Added" />
     <MESSAGE value="Fixes in Table" />
     <MESSAGE value="Fixes in Circle Responsive issue for mobile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixes in Circle Responsive issue for mobile" />
+    <MESSAGE value="Added Word Cloud" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Word Cloud" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -3,10 +3,11 @@ import styled from 'styled-components';
 export const CardWidgetHeading = styled('h2')`
   width: 100%;
   text-align: center;
+  font-size: 2.5rem;
 `;
 
 export const CardWidgetWrapper = styled('div')`
-  margin: 70px 0 50px 0;
+  margin: 100px 0 50px 0;
 `;
 
 export const CardWidgetDescription = styled('div')`

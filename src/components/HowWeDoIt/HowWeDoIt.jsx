@@ -42,29 +42,50 @@ const timelineData = [
   },
 ];
 export const HowWeDoIt = () => (
-  <HowWeDoItWrapper>
+  <HowWeDoItWrapper className="section">
     <Container>
-      <TeamHeading className="text-primary text-center">
-        How Do we do it ?
-      </TeamHeading>
-      <TimeLineWrapper mode="alternate" className="d-none d-md-block">
-        {timelineData.map((d) => (
-          <Timeline.Item
-            dot={<TimeLineIconWrapper>{d.dot}</TimeLineIconWrapper>}
-          >
-            <Item {...d} />
-          </Timeline.Item>
+      <TeamHeading className="text-center">How Do we do it ?</TeamHeading>
+      <section className="timeline">
+        {timelineData.map((d, index) => (
+          <article className="timeline__item">
+            <h2 className="timeline__date flex align-items-center">
+              {index % 2 !== 0 ? (
+                <span className="mr-5">{d.dot}</span>
+              ) : (
+                <span></span>
+              )}
+              {d.heading}
+              {index % 2 === 0 ? (
+                <span className="ml-5">{d.dot}</span>
+              ) : (
+                <span></span>
+              )}
+            </h2>
+            <div className="timeline__content">
+              <h3 className="timeline__title">{}</h3>
+              <p className="timeline__text">{d.subData} </p>
+            </div>
+          </article>
         ))}
-      </TimeLineWrapper>
-      <TimeLineWrapper className="d-md-none">
-        {timelineData.map((d) => (
-          <Timeline.Item
-            dot={<TimeLineIconWrapper>{d.dot}</TimeLineIconWrapper>}
-          >
-            <Item {...d} />
-          </Timeline.Item>
-        ))}
-      </TimeLineWrapper>
+      </section>
+      {/*<TimeLineWrapper mode="alternate" className="d-none d-md-block">*/}
+      {/*  {timelineData.map((d) => (*/}
+      {/*    <Timeline.Item*/}
+      {/*      dot={<TimeLineIconWrapper>{d.dot}</TimeLineIconWrapper>}*/}
+      {/*    >*/}
+      {/*      <Item {...d} />*/}
+      {/*    </Timeline.Item>*/}
+      {/*  ))}*/}
+      {/*</TimeLineWrapper>*/}
+      {/*<TimeLineWrapper className="d-md-none">*/}
+      {/*  {timelineData.map((d) => (*/}
+      {/*    <Timeline.Item*/}
+      {/*      dot={<TimeLineIconWrapper>{d.dot}</TimeLineIconWrapper>}*/}
+      {/*    >*/}
+      {/*      <Item {...d} />*/}
+      {/*    </Timeline.Item>*/}
+      {/*  ))}*/}
+      {/*</TimeLineWrapper>*/}
     </Container>
   </HowWeDoItWrapper>
 );

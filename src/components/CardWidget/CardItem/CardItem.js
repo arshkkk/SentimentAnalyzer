@@ -10,7 +10,10 @@ export const CardItem = ({ logo, heading, subheading, link }) => (
   <CardItemWrapper>
     <CardItemLogoWrapper className="text-primary">{logo}</CardItemLogoWrapper>
     <CardItemHeading>{heading}</CardItemHeading>
-    <CardItemSubData>{subheading}</CardItemSubData>
+    <CardItemSubData>
+      {subheading.slice(0, 150)}
+      {subheading.length > 150 ? '...' : ''}
+    </CardItemSubData>
     <a target="_blank" href={link}>
       Reference
     </a>

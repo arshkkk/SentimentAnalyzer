@@ -29,9 +29,9 @@ const teamMembersData = [
   },
 ];
 export const Team = () => (
-  <div id="team">
+  <div id="team" className="section">
     <Container>
-      <TeamHeading className="text-primary text-center">Our Team</TeamHeading>
+      <TeamHeading className="text-center">Our Team</TeamHeading>
       <Row className="justify-content-center">
         <Col xs={12} md={8}>
           <TeamDescription className="text-center text-secondary">

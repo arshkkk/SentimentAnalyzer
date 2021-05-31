@@ -9,7 +9,7 @@ import {
   Shuffle,
 } from 'react-feather';
 import { ItemHeading, ItemSubData } from '../HowWeDoIt/Item/Item.styles';
-import { WhyUsIconWrapper } from './WhyUs.styles';
+import { WhyUsIconWrapper, WhyUsItemWrapper } from './WhyUs.styles';
 const whyUsData = [
   {
     icon: <Shuffle />,
@@ -33,33 +33,42 @@ const whyUsData = [
   },
 ];
 export const WhyUs = () => (
-  <Container style={{ marginBottom: '50px', marginTop: '50px' }}>
+  <Container
+    style={{ marginBottom: '50px', marginTop: '50px' }}
+    className="section"
+  >
     <Row>
-      <TeamHeading className="text-primary text-center mb-5">
-        Why Us ?
-      </TeamHeading>
+      <TeamHeading className="text-center mb-5">Why Us ?</TeamHeading>
     </Row>
-    <Row>
-      <Col xs={12} md={8}>
+    <Row className="">
+      <Col xs={12} md={6}>
         <Row xs={1} md={2}>
-          {whyUsData.map((d) => (
-            <div className="mb-5 d-flex flex-column align-items-center">
+          {whyUsData.map((d, index) => (
+            <WhyUsItemWrapper
+              className={`d-flex flex-column align-items-center${
+                index < 2 ? ' mb-5' : ''
+              }`}
+            >
               <WhyUsIconWrapper className="text-primary">
                 {d.icon}
               </WhyUsIconWrapper>
               <ItemHeading>{d.heading}</ItemHeading>
-              <ItemSubData className="text-secondary">
+              <ItemSubData className="text-secondary font-italic">
                 {d.subheading}
               </ItemSubData>
-            </div>
+            </WhyUsItemWrapper>
           ))}
         </Row>
       </Col>
-      <Col xs={12} md={4} className="text-center mt-xs-5 mt-md-0">
+      <Col
+        xs={12}
+        md={6}
+        className="text-center mt-xs-5 mt-md-0 d-md-block d-none"
+      >
         <img
-          alt="feature.png"
-          src="/features.png"
-          style={{ height: 'auto', width: '250px' }}
+          alt="sentiment.svg"
+          src="/sentiment.svg"
+          style={{ height: 'auto', width: '50%' }}
         />
       </Col>
     </Row>

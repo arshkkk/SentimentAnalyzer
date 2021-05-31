@@ -10,6 +10,8 @@ import {
   CardFooter,
 } from 'reactstrap';
 import { Instagram, GitHub, Twitter } from 'react-feather';
+import { TeamMemberWrapper } from './TeamMember.styles';
+
 export const TeamMember = ({
   name,
   profession,
@@ -19,7 +21,7 @@ export const TeamMember = ({
   image,
 }) => {
   return (
-    <div style={{ padding: '10px 0' }}>
+    <TeamMemberWrapper style={{ padding: '10px 0' }}>
       <Card>
         <div className="d-flex justify-content-center mt-3">
           <CardImg
@@ -73,6 +75,6 @@ export const TeamMember = ({
           </div>
         </CardFooter>
       </Card>
-    </div>
+    </TeamMemberWrapper>
   );
 };

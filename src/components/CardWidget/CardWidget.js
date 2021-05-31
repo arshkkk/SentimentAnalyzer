@@ -21,8 +21,8 @@ export const CardWidget = ({ list, heading, description }) => (
       </Row>
 
       <Row>
-        <Col sm={12} md={{ size: 8, offset: 2 }}>
-          <Row className="justify-content-center" sm={1} md={2}>
+        <Col sm={12} md={{ size: 12 }}>
+          <Row className="justify-content-center" sm={1} md={3}>
             {list.map((l) => (
               <Col>
                 <CardItem {...l} />

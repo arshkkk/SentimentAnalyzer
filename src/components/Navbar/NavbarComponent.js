@@ -40,11 +40,11 @@ export const NavbarComponent = (props) => {
               <NavItem>
                 <NavLink href="#team">
                   <Link
-                    className="bg-primary"
                     style={{
                       color: 'white',
                       padding: '3px 10px',
                       borderRadius: '10px',
+                      backgroundColor: '#00ba92',
                     }}
                     to="/signup"
                   >

@@ -3,6 +3,7 @@ import { colors } from '../../../colors';
 
 export const ItemWrapper = styled('div')`
   text-align: left;
+
   :not(:last-child) {
     padding: 0 0 30px 0;
   }
@@ -12,7 +13,7 @@ export const ItemWrapper = styled('div')`
 `;
 
 export const ItemHeading = styled('h3')`
-  color: ${colors.black_font};
+  color: rgb(0, 41, 186);
 `;
 
 export const ItemSubData = styled('p')`
